@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navi"
+    app:startDestination="@id/fragmentAddWords">
+    <fragment
+        android:id="@+id/fragmentAddWords"
+        android:name="com.example.olmazsa_soverim3.fragment.FragmentAddWords"
+        android:label="fragment_add_words"
+        tools:layout="@layout/fragment_add_words" />
+    <fragment
+        android:id="@+id/fragmentHomePage"
+        android:name="com.example.olmazsa_soverim3.fragment.FragmentHomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" />
+    <fragment
+        android:id="@+id/fragmentProfilePage"
+        android:name="com.example.olmazsa_soverim3.fragment.FragmentProfilePage"
+        android:label="fragment_profile_page"
+        tools:layout="@layout/fragment_profile_page" />
+</navigation>
